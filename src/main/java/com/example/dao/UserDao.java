@@ -11,6 +11,6 @@ public interface UserDao extends JpaRepository<User,Long> {
 
     public User findByNameAndAge(String name,Integer age);
 
-    //新增根据年查询
+    //新增根据年龄查询
     public List<User> findByAge(Integer age);
 }
